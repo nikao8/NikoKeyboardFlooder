@@ -67,96 +67,294 @@ namespace ProjetoFlooderKeyboard
             RegisterHotKey(this.Handle, MYACTION_HOTKEY_ID_F9, 0, (int)Keys.F9);
             RegisterHotKey(this.Handle, MYACTION_HOTKEY_ID_F10, 0, (int)Keys.F10);
             RegisterHotKey(this.Handle, MYACTION_HOTKEY_ID_F11, 0, (int)Keys.F11);
-            
-
+                        
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F1)
             {
-                if(comboboxKey.Text == "F1" && radioOn.Checked == true)
+                if(comboboxKey.Text == "F1" && comboboxKey1.Text == "F1")
+                {
+                    if(radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F1" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
-                    SendKeys.Send("{ENTER}");                  
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F1" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
+                    SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F2)
             {
-                if (comboboxKey.Text == "F2" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F2" && comboboxKey1.Text == "F2")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F2" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F2" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F3)
             {
-                if (comboboxKey.Text == "F3" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F3" && comboboxKey1.Text == "F3")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F3" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F3" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F4)
             {
-                if (comboboxKey.Text == "F4" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F4" && comboboxKey1.Text == "F4")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F4" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F4" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F5)
             {
-                if (comboboxKey.Text == "F5" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F5" && comboboxKey1.Text == "F5")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F5" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F5" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F6)
             {
-                if (comboboxKey.Text == "F6" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F6" && comboboxKey1.Text == "F6")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F6" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F6" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F7)
             {
-                if (comboboxKey.Text == "F7" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F7" && comboboxKey1.Text == "F7")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F7" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F7" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F8)
             {
-                if (comboboxKey.Text == "F8" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F8" && comboboxKey1.Text == "F8")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F8" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F8" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F9)
             {
-                if (comboboxKey.Text == "F9" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F9" && comboboxKey1.Text == "F9")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F9" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F9" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F10)
             {
-                if (comboboxKey.Text == "F10" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F10" && comboboxKey1.Text == "F10")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F10" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
+                    SendKeys.Send("{ENTER}");
+                }
+                else if (comboboxKey1.Text == "F10" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
                     SendKeys.Send("{ENTER}");
                 }
             }
             if (m.Msg == 0x0312 && m.WParam.ToInt32() == MYACTION_HOTKEY_ID_F11)
             {
-                if (comboboxKey.Text == "F11" && radioOn.Checked == true)
+                if (comboboxKey.Text == "F11" && comboboxKey1.Text == "F11")
+                {
+                    if (radioOn.Checked)
+                    {
+                        SendKeys.Send(richTextBox1.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                    if (radioOn1.Checked)
+                    {
+                        SendKeys.Send(richTextBox2.Text);
+                        SendKeys.Send("{ENTER}");
+                    }
+                }
+                else if (comboboxKey.Text == "F11" && radioOn.Checked)
                 {
                     SendKeys.Send(richTextBox1.Text);
                     SendKeys.Send("{ENTER}");
                 }
+                else if (comboboxKey1.Text == "F11" && radioOn1.Checked)
+                {
+                    SendKeys.Send(richTextBox2.Text);
+                    SendKeys.Send("{ENTER}");
+                }
             }
+
             base.WndProc(ref m);
         }
 
@@ -169,6 +367,7 @@ namespace ProjetoFlooderKeyboard
         {
             MessageBox.Show("Desenvolvido por: github.com/nikao8\n\n\nDonate?, chave pix: nicolasmarquesjf@hotmail.com", "Suporte");
             radioOff.Checked = true;
+            radioOff1.Checked = true;
         }
     }
 }
