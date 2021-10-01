@@ -2,7 +2,7 @@
 ## Feito em C#, Windows Forms
 
 ## Funcionalidade:
-O programa consiste em enviar uma mensagem com base em uma tecla de atalho selecionada, sendo assim, toda vez que a tecla for acionada o programa enviará a mensagem escolhida.
+O programa consiste em enviar uma mensagem com base em uma tecla de atalho selecionada, sendo assim, toda vez que a tecla for acionada, o programa enviará a mensagem escolhida.
 Possibilitando um spam de texto com facilidade.
 
 *OBS: Desenvolvido com o intuito de prática e aprendizagem em C#*
