@@ -5,13 +5,13 @@
 O programa consiste em enviar uma mensagem com base em uma tecla de atalho selecionada, sendo assim, toda vez que a tecla for acionada o programa enviará a mensagem escolhida.
 Possibilitando um spam de texto com facilidade.
 
-OBS: Desenvolvido com o intuito de prática e aprendizagem em C#
+*OBS: Desenvolvido com o intuito de prática e aprendizagem em C#*
 
 ## Requisitos:
 
 - .NET 4.7.2
 
-OBS: Funciona somente em sistemas operacionas Windows.
+*OBS: Funciona somente em sistemas operacionas Windows.*
 
 ## Downloads:
 
